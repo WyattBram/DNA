@@ -14,7 +14,8 @@ public class Main {
 
             a = dna.inverser(a);
 
-            System.out.println(dna.translator(a));
+
+            System.out.println("Your DNA sequence reversed and translated is: \n" + dna.translator(a));
 
         }
         else{
